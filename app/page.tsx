@@ -158,11 +158,6 @@ export default function Home() {
     <div className="container">
       {phase === "landing" && (
         <div className="landing">
-          <h1>Watch & React</h1>
-          <p>
-            We&apos;ll turn on your camera to capture your reaction while you
-            watch a video. The recording lasts 3 minutes.
-          </p>
           <button className="start-btn" onClick={startRecording}>
             I&apos;m Ready
           </button>
